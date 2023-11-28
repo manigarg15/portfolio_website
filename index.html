@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mani - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Mani's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        <div class="firstSection">
+            <div class="leftSection">Hi, My name is <span class = "purple">Mani</span>
+                <div>and I am a passionate </div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+
+            <div class="rightSection"><img src="image.jpg" alt=""></div>
+        </div>
+        <hr>
+        <div class="secondSection">
+            <span class = "text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="highradius.jpg" alt="" class = "image_top">
+                    <div class="vertical_title">Winter Intern at HighRadius (Jan 2022 - Apr 2022)</div>
+                    <div class="vertical_desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima dolores doloribus nam quis? Repudiandae modi harum alias excepturi laborum, mollitia, natus animi quae voluptates dolores placeat sapiente cumque vel? Maiores, exercitationem sequi. Vero molestiae ad ipsum? Placeat, similique quisquam?</div>
+                </div>
+                <div class="vertical">
+                    <img src="highradius.jpg" alt="" class = "image_top">
+                    <div class="vertical_title">Trainee at HighRadius (June 2022 - Dec 2022)</div>
+                    <div class="vertical_desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quo eius a numquam aliquam, blanditiis porro ipsum. Esse atque quibusdam, sequi, sit asperiores enim expedita reiciendis rerum eos, iusto nisi illum quas consequatur! Libero, cum error beatae consectetur fugit reprehenderit.</div>
+                </div>
+                <div class="vertical">
+                    <img src="csg.jpg" alt="" class = "image_top">
+                    <div class="vertical_title">Intern at CSG Systems (Jan 2023 - Mar 2023)</div>
+                    <div class="vertical_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet voluptas consequatur repellat quia commodi quidem eos distinctio assumenda ipsum, incidunt non illo eaque harum, maiores officiis culpa cupiditate cum similique. Explicabo itaque perspiciatis obcaecati enim ut tempore harum fuga!</div>
+                </div>
+                <div class="vertical">
+                    <img src="csg.jpg" alt="" class = "image_top">
+                    <div class="vertical_title">Test Engineer Grad at CSG Systems(June 2023 - Present)</div>
+                    <div class="vertical_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sequi perspiciatis aliquam illum explicabo labore reprehenderit aut vero consectetur rem blanditiis beatae dignissimos reiciendis suscipit repellendus inventore harum, necessitatibus eius sit omnis ipsum maxime? Quisquam voluptate maxime esse nobis obcaecati!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first -footer">
+                <h3>Mani's Developer Portfolio</h3>
+            </div>
+            <div class="second_footer">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="third_footer">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="fourth_footer">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_rights">
+            Copyright &copy; manisportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+     <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'Web Designer.', 'Programmer.'],
+      typeSpeed: 50,
+    });
+    </script>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
